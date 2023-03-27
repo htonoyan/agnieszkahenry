@@ -62,7 +62,6 @@ body {
 }
 
 .cover-container {
-  max-width: 60em;
 }
 
 
@@ -114,12 +113,20 @@ body {
  */
 .cover {
   padding: 0 1.5rem;
+  background: rgba(255, 255, 255, 0.7);
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-
+.cover-heading {
+  font-family: sans-serif;
+  color: black;
+}
+.lead {
+  font-family: sans-serif;
+  color: black;
+}
 
 /*
  * Footer
